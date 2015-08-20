@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('nav a').on('click', function(){
+	    
 		// Current class assigniment
-		
 		$('nav li.current').removeClass('current');
 		$(this).parent().addClass('current');
 		
